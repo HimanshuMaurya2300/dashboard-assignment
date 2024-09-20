@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --blue_50: #e8f0fb;
+        --blue_a200: #3785f1;
+        --blue_gray_50: #f1f1f1;
+        --blue_gray_500: #737898;
+        --blue_gray_900: #1b204a;
+        --blue_gray_900_01: #161e54;
+        --blue_gray_900_02: #2f2f2f;
+        --deep_orange_50: #ffefe7;
+        --gray_200: '#efefef';
+        --gray_300: '#e0e0e0';
+        --gray_400: '#b3b3b3';
+        --gray_50: '#f9f9f9';
+        --gray_50_01: #f8f8f8;
+        --gray_700: #686868;
+        --gray_700_7f: #6868687f;
+        --indigo_900: #0a337a;
+        --pink_a100: #ee61cf;
+        --red_50: #fdebf9;
+        --red_a200: #ff5151;
+        --white_a700: #ffffff;
+        --white_a700_99: #ffffff99;
+        --white_a700_cc: #ffffffcc;
+
+        --radius-xs: 4px;
+        --radius-sm: 6px;
+        --radius-md: 10px;
+        --radius-lg: 12px;
+        --radius-xl: 20px;
+
+        --space-xs: 6px;
+        --space-sm: 8px;
+        --space-md: 10px;
+        --space-lg: 12px;
+        --space-xl: 14px;
+        --space-2xl: 16px;
+        --space-3xl: 20px;
+        --space-4xl: 20px;
+        --space-5xl: 24px;
+        --space-6xl: 28px;
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+
+* {
+    box-sizing: border-box;
+    line-height: normal;
+    font-family: inherit;
+    margin: unset;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+input {
+    background-color: transparent;
+    width: 100%;
+}
+
+input:focus {
+    outline: none;
+}
